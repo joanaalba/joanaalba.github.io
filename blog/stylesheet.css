@@ -4,4 +4,32 @@ body {
 	color: #000000;
 	}
 
+h1 {font-family: 'Oswald', sans-serif;
+	font-size: 56px;
+	}
+
+aside#sidebar {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	}
+
+.menu {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	}
+
 a { color: #000000; }
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 10px;
+	}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;}
+
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;}
