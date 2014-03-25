@@ -1,35 +1,37 @@
-body {
-	background-color: #FFFFFF;
-	padding: 25px;
-	color: #000000;
-	}
+body 			{ color: #000000; font-family: sans-serif; padding: 10px 20px 10px 20px; }
 
-h1 {font-family: 'Oswald', sans-serif;
-	font-size: 56px;
-	}
+@font-face 		{ font-family: 'league_gothicregular';
+    			src: url('type/leaguegothic-regular-webfont.eot');
+    			src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         		url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         		url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         		url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg'); }
 
-aside#sidebar {
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
-	}
+h1 				{ font-family: 'league_gothicregular'; font-size: 80px; letter-spacing: 2px; font-weight: normal; margin: 0px; }
 
-.menu {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
-	}
+a				{ color: black; text-decoration: none; }
 
-a { color: #000000; }
+h2 				{ font-family: 'league_gothicregular';font-size: 32px; font-weight: lighter; text-transform: uppercase; 
+				  margin: 1px;}
 
-h4 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 10px;
-	}
-
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;}
+h4				{ font-size: 12px; margin: 1px; }
 
 
-p {
-	font-family: 'Oswald', sans-serif;
-	font-size: 14px;}
+#header			{ position: relative; border-bottom: 2px solid black;}
+
+#top-menu		{ position: absolute; right:50px; bottom:0px; }
+
+#sidebar		{width: 200px; float: left; }
+
+#content		{margin-left: 250px; margin-top: 30px; }
+
+#menu li 		{ display: inline; list-style-type: none; padding: 12px; }
+
+#sidebar ul 	{ margin: 25px 0px; padding: 0px; }
+
+#sidebar li 	{ font-size: 14px; font-weight: 600; list-style-type: none; padding: 5px 0px; }
+
+
+
+footer			{ font-size: 12px; border-top: 2px solid black; }
+
